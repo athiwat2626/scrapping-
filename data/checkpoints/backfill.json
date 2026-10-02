@@ -1,0 +1,15 @@
+{
+  "page": 925,
+  "pages_fetched_total": 5399,
+  "items_total": 925125,
+  "skipped_shift_pages": 15,
+  "target_start_date": "2000-01-01",
+  "source_total_pages": 924,
+  "anchor_time": null,
+  "page_size": 1000,
+  "target_rows": 0,
+  "bangkok_rows": 486116,
+  "done": true,
+  "done_reason": "end_of_list",
+  "updated_at": "2026-10-02 15:45:26"
+}

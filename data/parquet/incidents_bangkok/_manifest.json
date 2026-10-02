@@ -1,0 +1,317 @@
+{
+  "dataset": "incidents_bangkok",
+  "generated_at": "2026-10-02 18:49:31",
+  "rows_per_file": 10000,
+  "total_rows": 484801,
+  "signature": "484801|2026-10-02 18:45:32|10000",
+  "validation": {
+    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate": {
+      "G1_schema": "PASS",
+      "G2_has_rows": "PASS",
+      "G3_non_bangkok_rows": "PASS",
+      "G4_required_not_null": "PASS",
+      "G5_no_coords_pct": "PASS",
+      "G6_quarantine_pct": "PASS",
+      "G7_no_big_drop": "PASS",
+      "G9_non_traffic_rows": "PASS",
+      "G8_clean_backlog": "PASS"
+    }
+  },
+  "files": [
+    {
+      "file": "part-00000.parquet",
+      "rows": 10000,
+      "eid_min": 3096,
+      "eid_max": 16246
+    },
+    {
+      "file": "part-00001.parquet",
+      "rows": 10000,
+      "eid_min": 16247,
+      "eid_max": 28665
+    },
+    {
+      "file": "part-00002.parquet",
+      "rows": 10000,
+      "eid_min": 28668,
+      "eid_max": 40193
+    },
+    {
+      "file": "part-00003.parquet",
+      "rows": 10000,
+      "eid_min": 40194,
+      "eid_max": 52150
+    },
+    {
+      "file": "part-00004.parquet",
+      "rows": 10000,
+      "eid_min": 52151,
+      "eid_max": 63581
+    },
+    {
+      "file": "part-00005.parquet",
+      "rows": 10000,
+      "eid_min": 63582,
+      "eid_max": 75776
+    },
+    {
+      "file": "part-00006.parquet",
+      "rows": 10000,
+      "eid_min": 75778,
+      "eid_max": 87302
+    },
+    {
+      "file": "part-00007.parquet",
+      "rows": 10000,
+      "eid_min": 87303,
+      "eid_max": 98431
+    },
+    {
+      "file": "part-00008.parquet",
+      "rows": 10000,
+      "eid_min": 98432,
+      "eid_max": 109242
+    },
+    {
+      "file": "part-00009.parquet",
+      "rows": 10000,
+      "eid_min": 109243,
+      "eid_max": 120094
+    },
+    {
+      "file": "part-00010.parquet",
+      "rows": 10000,
+      "eid_min": 120096,
+      "eid_max": 131152
+    },
+    {
+      "file": "part-00011.parquet",
+      "rows": 10000,
+      "eid_min": 131153,
+      "eid_max": 143548
+    },
+    {
+      "file": "part-00012.parquet",
+      "rows": 10000,
+      "eid_min": 143549,
+      "eid_max": 159156
+    },
+    {
+      "file": "part-00013.parquet",
+      "rows": 10000,
+      "eid_min": 159158,
+      "eid_max": 171613
+    },
+    {
+      "file": "part-00014.parquet",
+      "rows": 10000,
+      "eid_min": 171614,
+      "eid_max": 182783
+    },
+    {
+      "file": "part-00015.parquet",
+      "rows": 10000,
+      "eid_min": 182784,
+      "eid_max": 193682
+    },
+    {
+      "file": "part-00016.parquet",
+      "rows": 10000,
+      "eid_min": 193683,
+      "eid_max": 204347
+    },
+    {
+      "file": "part-00017.parquet",
+      "rows": 10000,
+      "eid_min": 204348,
+      "eid_max": 215986
+    },
+    {
+      "file": "part-00018.parquet",
+      "rows": 10000,
+      "eid_min": 215987,
+      "eid_max": 263090
+    },
+    {
+      "file": "part-00019.parquet",
+      "rows": 10000,
+      "eid_min": 263091,
+      "eid_max": 274678
+    },
+    {
+      "file": "part-00020.parquet",
+      "rows": 10000,
+      "eid_min": 274679,
+      "eid_max": 290227
+    },
+    {
+      "file": "part-00021.parquet",
+      "rows": 10000,
+      "eid_min": 290228,
+      "eid_max": 309952
+    },
+    {
+      "file": "part-00022.parquet",
+      "rows": 10000,
+      "eid_min": 309958,
+      "eid_max": 334276
+    },
+    {
+      "file": "part-00023.parquet",
+      "rows": 10000,
+      "eid_min": 334277,
+      "eid_max": 357861
+    },
+    {
+      "file": "part-00024.parquet",
+      "rows": 10000,
+      "eid_min": 357862,
+      "eid_max": 385511
+    },
+    {
+      "file": "part-00025.parquet",
+      "rows": 10000,
+      "eid_min": 385516,
+      "eid_max": 413062
+    },
+    {
+      "file": "part-00026.parquet",
+      "rows": 10000,
+      "eid_min": 413064,
+      "eid_max": 439749
+    },
+    {
+      "file": "part-00027.parquet",
+      "rows": 10000,
+      "eid_min": 439751,
+      "eid_max": 468762
+    },
+    {
+      "file": "part-00028.parquet",
+      "rows": 10000,
+      "eid_min": 468766,
+      "eid_max": 496710
+    },
+    {
+      "file": "part-00029.parquet",
+      "rows": 10000,
+      "eid_min": 496711,
+      "eid_max": 521718
+    },
+    {
+      "file": "part-00030.parquet",
+      "rows": 10000,
+      "eid_min": 521719,
+      "eid_max": 548513
+    },
+    {
+      "file": "part-00031.parquet",
+      "rows": 10000,
+      "eid_min": 548515,
+      "eid_max": 578497
+    },
+    {
+      "file": "part-00032.parquet",
+      "rows": 10000,
+      "eid_min": 578498,
+      "eid_max": 604171
+    },
+    {
+      "file": "part-00033.parquet",
+      "rows": 10000,
+      "eid_min": 604172,
+      "eid_max": 635801
+    },
+    {
+      "file": "part-00034.parquet",
+      "rows": 10000,
+      "eid_min": 635802,
+      "eid_max": 666509
+    },
+    {
+      "file": "part-00035.parquet",
+      "rows": 10000,
+      "eid_min": 666510,
+      "eid_max": 686622
+    },
+    {
+      "file": "part-00036.parquet",
+      "rows": 10000,
+      "eid_min": 686624,
+      "eid_max": 707351
+    },
+    {
+      "file": "part-00037.parquet",
+      "rows": 10000,
+      "eid_min": 707353,
+      "eid_max": 728460
+    },
+    {
+      "file": "part-00038.parquet",
+      "rows": 10000,
+      "eid_min": 728465,
+      "eid_max": 750602
+    },
+    {
+      "file": "part-00039.parquet",
+      "rows": 10000,
+      "eid_min": 750603,
+      "eid_max": 767949
+    },
+    {
+      "file": "part-00040.parquet",
+      "rows": 10000,
+      "eid_min": 767952,
+      "eid_max": 787547
+    },
+    {
+      "file": "part-00041.parquet",
+      "rows": 10000,
+      "eid_min": 787549,
+      "eid_max": 804424
+    },
+    {
+      "file": "part-00042.parquet",
+      "rows": 10000,
+      "eid_min": 804425,
+      "eid_max": 821708
+    },
+    {
+      "file": "part-00043.parquet",
+      "rows": 10000,
+      "eid_min": 821712,
+      "eid_max": 845888
+    },
+    {
+      "file": "part-00044.parquet",
+      "rows": 10000,
+      "eid_min": 845893,
+      "eid_max": 876251
+    },
+    {
+      "file": "part-00045.parquet",
+      "rows": 10000,
+      "eid_min": 876255,
+      "eid_max": 903539
+    },
+    {
+      "file": "part-00046.parquet",
+      "rows": 10000,
+      "eid_min": 903542,
+      "eid_max": 936070
+    },
+    {
+      "file": "part-00047.parquet",
+      "rows": 10000,
+      "eid_min": 936071,
+      "eid_max": 964780
+    },
+    {
+      "file": "part-00048.parquet",
+      "rows": 4801,
+      "eid_min": 964781,
+      "eid_max": 978722
+    }
+  ]
+}

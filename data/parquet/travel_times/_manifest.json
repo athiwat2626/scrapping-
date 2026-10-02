@@ -1,0 +1,29 @@
+{
+  "dataset": "travel_times",
+  "generated_at": "2026-10-02 18:50:23",
+  "rows_per_file": 10000,
+  "total_rows": 823,
+  "signature": "823|2026-10-02 18:50:02|10000",
+  "validation": {
+    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate": {
+      "G1_schema": "PASS",
+      "G2_has_rows": "PASS",
+      "G3_non_bangkok_rows": "PASS",
+      "G4_required_not_null": "PASS",
+      "G5_no_coords_pct": "PASS",
+      "G6_quarantine_pct": "PASS",
+      "G7_no_big_drop": "PASS",
+      "G9_non_traffic_rows": "PASS",
+      "G8_clean_backlog": "PASS"
+    }
+  },
+  "files": [
+    {
+      "file": "part-00000.parquet",
+      "rows": 823,
+      "route_min": "ดอนเมือง -> หมอชิต",
+      "route_max": "อนุสาวรีย์ชัยฯ -> สยาม"
+    }
+  ]
+}

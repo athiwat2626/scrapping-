@@ -1,0 +1,875 @@
+{
+  "dataset": "traffic_index",
+  "generated_at": "2026-10-02 18:50:22",
+  "rows_per_file": 10000,
+  "total_rows": 1414000,
+  "signature": "1414000|1790941200-4722018.0999999|10000",
+  "validation": {
+    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate": {
+      "G1_schema": "PASS",
+      "G2_has_rows": "PASS",
+      "G3_non_bangkok_rows": "PASS",
+      "G4_required_not_null": "PASS",
+      "G5_no_coords_pct": "PASS",
+      "G6_quarantine_pct": "PASS",
+      "G7_no_big_drop": "PASS",
+      "G9_non_traffic_rows": "PASS",
+      "G8_clean_backlog": "PASS"
+    }
+  },
+  "files": [
+    {
+      "file": "part-00000.parquet",
+      "rows": 10000,
+      "ts_min": 1325350800,
+      "ts_max": 1328422500
+    },
+    {
+      "file": "part-00001.parquet",
+      "rows": 10000,
+      "ts_min": 1328423100,
+      "ts_max": 1331500200
+    },
+    {
+      "file": "part-00002.parquet",
+      "rows": 10000,
+      "ts_min": 1331500500,
+      "ts_max": 1334635200
+    },
+    {
+      "file": "part-00003.parquet",
+      "rows": 10000,
+      "ts_min": 1334635500,
+      "ts_max": 1338152100
+    },
+    {
+      "file": "part-00004.parquet",
+      "rows": 10000,
+      "ts_min": 1338152400,
+      "ts_max": 1341219600
+    },
+    {
+      "file": "part-00005.parquet",
+      "rows": 10000,
+      "ts_min": 1341219900,
+      "ts_max": 1344312300
+    },
+    {
+      "file": "part-00006.parquet",
+      "rows": 10000,
+      "ts_min": 1344312600,
+      "ts_max": 1347450300
+    },
+    {
+      "file": "part-00007.parquet",
+      "rows": 10000,
+      "ts_min": 1347450600,
+      "ts_max": 1350584100
+    },
+    {
+      "file": "part-00008.parquet",
+      "rows": 10000,
+      "ts_min": 1350584400,
+      "ts_max": 1353672000
+    },
+    {
+      "file": "part-00009.parquet",
+      "rows": 10000,
+      "ts_min": 1353672300,
+      "ts_max": 1356731100
+    },
+    {
+      "file": "part-00010.parquet",
+      "rows": 10000,
+      "ts_min": 1356731400,
+      "ts_max": 1359786000
+    },
+    {
+      "file": "part-00011.parquet",
+      "rows": 10000,
+      "ts_min": 1359786300,
+      "ts_max": 1362930300
+    },
+    {
+      "file": "part-00012.parquet",
+      "rows": 10000,
+      "ts_min": 1362930600,
+      "ts_max": 1366066200
+    },
+    {
+      "file": "part-00013.parquet",
+      "rows": 10000,
+      "ts_min": 1366066500,
+      "ts_max": 1369129800
+    },
+    {
+      "file": "part-00014.parquet",
+      "rows": 10000,
+      "ts_min": 1369130100,
+      "ts_max": 1372311900
+    },
+    {
+      "file": "part-00015.parquet",
+      "rows": 10000,
+      "ts_min": 1372312200,
+      "ts_max": 1375857300
+    },
+    {
+      "file": "part-00016.parquet",
+      "rows": 10000,
+      "ts_min": 1375857600,
+      "ts_max": 1379201100
+    },
+    {
+      "file": "part-00017.parquet",
+      "rows": 10000,
+      "ts_min": 1379201400,
+      "ts_max": 1382343000
+    },
+    {
+      "file": "part-00018.parquet",
+      "rows": 10000,
+      "ts_min": 1382343300,
+      "ts_max": 1385564100
+    },
+    {
+      "file": "part-00019.parquet",
+      "rows": 10000,
+      "ts_min": 1385564400,
+      "ts_max": 1388655600
+    },
+    {
+      "file": "part-00020.parquet",
+      "rows": 10000,
+      "ts_min": 1388655900,
+      "ts_max": 1391680500
+    },
+    {
+      "file": "part-00021.parquet",
+      "rows": 10000,
+      "ts_min": 1391680800,
+      "ts_max": 1394860800
+    },
+    {
+      "file": "part-00022.parquet",
+      "rows": 10000,
+      "ts_min": 1394861100,
+      "ts_max": 1407046500
+    },
+    {
+      "file": "part-00023.parquet",
+      "rows": 10000,
+      "ts_min": 1407046800,
+      "ts_max": 1410110700
+    },
+    {
+      "file": "part-00024.parquet",
+      "rows": 10000,
+      "ts_min": 1410111000,
+      "ts_max": 1413294000
+    },
+    {
+      "file": "part-00025.parquet",
+      "rows": 10000,
+      "ts_min": 1413294300,
+      "ts_max": 1416319800
+    },
+    {
+      "file": "part-00026.parquet",
+      "rows": 10000,
+      "ts_min": 1416320100,
+      "ts_max": 1419476100
+    },
+    {
+      "file": "part-00027.parquet",
+      "rows": 10000,
+      "ts_min": 1419476400,
+      "ts_max": 1422782100
+    },
+    {
+      "file": "part-00028.parquet",
+      "rows": 10000,
+      "ts_min": 1422782400,
+      "ts_max": 1425869100
+    },
+    {
+      "file": "part-00029.parquet",
+      "rows": 10000,
+      "ts_min": 1425869400,
+      "ts_max": 1428987300
+    },
+    {
+      "file": "part-00030.parquet",
+      "rows": 10000,
+      "ts_min": 1428987600,
+      "ts_max": 1432584600
+    },
+    {
+      "file": "part-00031.parquet",
+      "rows": 10000,
+      "ts_min": 1432584900,
+      "ts_max": 1435669500
+    },
+    {
+      "file": "part-00032.parquet",
+      "rows": 10000,
+      "ts_min": 1435669800,
+      "ts_max": 1438736400
+    },
+    {
+      "file": "part-00033.parquet",
+      "rows": 10000,
+      "ts_min": 1438736700,
+      "ts_max": 1441882800
+    },
+    {
+      "file": "part-00034.parquet",
+      "rows": 10000,
+      "ts_min": 1441883100,
+      "ts_max": 1444920900
+    },
+    {
+      "file": "part-00035.parquet",
+      "rows": 10000,
+      "ts_min": 1444921200,
+      "ts_max": 1448010900
+    },
+    {
+      "file": "part-00036.parquet",
+      "rows": 10000,
+      "ts_min": 1448011200,
+      "ts_max": 1451124000
+    },
+    {
+      "file": "part-00037.parquet",
+      "rows": 10000,
+      "ts_min": 1451124300,
+      "ts_max": 1454335800
+    },
+    {
+      "file": "part-00038.parquet",
+      "rows": 10000,
+      "ts_min": 1454336100,
+      "ts_max": 1457427300
+    },
+    {
+      "file": "part-00039.parquet",
+      "rows": 10000,
+      "ts_min": 1457427600,
+      "ts_max": 1460586600
+    },
+    {
+      "file": "part-00040.parquet",
+      "rows": 10000,
+      "ts_min": 1460586900,
+      "ts_max": 1463696400
+    },
+    {
+      "file": "part-00041.parquet",
+      "rows": 10000,
+      "ts_min": 1463696700,
+      "ts_max": 1466826900
+    },
+    {
+      "file": "part-00042.parquet",
+      "rows": 10000,
+      "ts_min": 1466827200,
+      "ts_max": 1469892600
+    },
+    {
+      "file": "part-00043.parquet",
+      "rows": 10000,
+      "ts_min": 1469892900,
+      "ts_max": 1473053700
+    },
+    {
+      "file": "part-00044.parquet",
+      "rows": 10000,
+      "ts_min": 1473054000,
+      "ts_max": 1476175800
+    },
+    {
+      "file": "part-00045.parquet",
+      "rows": 10000,
+      "ts_min": 1476176100,
+      "ts_max": 1479385200
+    },
+    {
+      "file": "part-00046.parquet",
+      "rows": 10000,
+      "ts_min": 1479385500,
+      "ts_max": 1483075800
+    },
+    {
+      "file": "part-00047.parquet",
+      "rows": 10000,
+      "ts_min": 1483076100,
+      "ts_max": 1486147200
+    },
+    {
+      "file": "part-00048.parquet",
+      "rows": 10000,
+      "ts_min": 1486147500,
+      "ts_max": 1490553300
+    },
+    {
+      "file": "part-00049.parquet",
+      "rows": 10000,
+      "ts_min": 1490553600,
+      "ts_max": 1493620200
+    },
+    {
+      "file": "part-00050.parquet",
+      "rows": 10000,
+      "ts_min": 1493620500,
+      "ts_max": 1496643300
+    },
+    {
+      "file": "part-00051.parquet",
+      "rows": 10000,
+      "ts_min": 1496643600,
+      "ts_max": 1499718600
+    },
+    {
+      "file": "part-00052.parquet",
+      "rows": 10000,
+      "ts_min": 1499718900,
+      "ts_max": 1502725200
+    },
+    {
+      "file": "part-00053.parquet",
+      "rows": 10000,
+      "ts_min": 1502725500,
+      "ts_max": 1515301500
+    },
+    {
+      "file": "part-00054.parquet",
+      "rows": 10000,
+      "ts_min": 1515301800,
+      "ts_max": 1518660900
+    },
+    {
+      "file": "part-00055.parquet",
+      "rows": 10000,
+      "ts_min": 1518661200,
+      "ts_max": 1522096500
+    },
+    {
+      "file": "part-00056.parquet",
+      "rows": 10000,
+      "ts_min": 1522096800,
+      "ts_max": 1525278300
+    },
+    {
+      "file": "part-00057.parquet",
+      "rows": 10000,
+      "ts_min": 1525278600,
+      "ts_max": 1528365000
+    },
+    {
+      "file": "part-00058.parquet",
+      "rows": 10000,
+      "ts_min": 1528365300,
+      "ts_max": 1531512300
+    },
+    {
+      "file": "part-00059.parquet",
+      "rows": 10000,
+      "ts_min": 1531512600,
+      "ts_max": 1534608000
+    },
+    {
+      "file": "part-00060.parquet",
+      "rows": 10000,
+      "ts_min": 1534608300,
+      "ts_max": 1537717200
+    },
+    {
+      "file": "part-00061.parquet",
+      "rows": 10000,
+      "ts_min": 1537717500,
+      "ts_max": 1540911600
+    },
+    {
+      "file": "part-00062.parquet",
+      "rows": 10000,
+      "ts_min": 1540911900,
+      "ts_max": 1544076900
+    },
+    {
+      "file": "part-00063.parquet",
+      "rows": 10000,
+      "ts_min": 1544077200,
+      "ts_max": 1547238600
+    },
+    {
+      "file": "part-00064.parquet",
+      "rows": 10000,
+      "ts_min": 1547238900,
+      "ts_max": 1550409000
+    },
+    {
+      "file": "part-00065.parquet",
+      "rows": 10000,
+      "ts_min": 1550409300,
+      "ts_max": 1553577300
+    },
+    {
+      "file": "part-00066.parquet",
+      "rows": 10000,
+      "ts_min": 1553577900,
+      "ts_max": 1556760600
+    },
+    {
+      "file": "part-00067.parquet",
+      "rows": 10000,
+      "ts_min": 1556760900,
+      "ts_max": 1559936400
+    },
+    {
+      "file": "part-00068.parquet",
+      "rows": 10000,
+      "ts_min": 1559936700,
+      "ts_max": 1563054300
+    },
+    {
+      "file": "part-00069.parquet",
+      "rows": 10000,
+      "ts_min": 1563054600,
+      "ts_max": 1566082500
+    },
+    {
+      "file": "part-00070.parquet",
+      "rows": 10000,
+      "ts_min": 1566082800,
+      "ts_max": 1569082800
+    },
+    {
+      "file": "part-00071.parquet",
+      "rows": 10000,
+      "ts_min": 1569083100,
+      "ts_max": 1572083100
+    },
+    {
+      "file": "part-00072.parquet",
+      "rows": 10000,
+      "ts_min": 1572083400,
+      "ts_max": 1575083700
+    },
+    {
+      "file": "part-00073.parquet",
+      "rows": 10000,
+      "ts_min": 1575084000,
+      "ts_max": 1578092700
+    },
+    {
+      "file": "part-00074.parquet",
+      "rows": 10000,
+      "ts_min": 1578093000,
+      "ts_max": 1581093300
+    },
+    {
+      "file": "part-00075.parquet",
+      "rows": 10000,
+      "ts_min": 1581093600,
+      "ts_max": 1584093600
+    },
+    {
+      "file": "part-00076.parquet",
+      "rows": 10000,
+      "ts_min": 1584093900,
+      "ts_max": 1587093600
+    },
+    {
+      "file": "part-00077.parquet",
+      "rows": 10000,
+      "ts_min": 1587093900,
+      "ts_max": 1590093600
+    },
+    {
+      "file": "part-00078.parquet",
+      "rows": 10000,
+      "ts_min": 1590093900,
+      "ts_max": 1593094800
+    },
+    {
+      "file": "part-00079.parquet",
+      "rows": 10000,
+      "ts_min": 1593095100,
+      "ts_max": 1596096300
+    },
+    {
+      "file": "part-00080.parquet",
+      "rows": 10000,
+      "ts_min": 1596096600,
+      "ts_max": 1599097800
+    },
+    {
+      "file": "part-00081.parquet",
+      "rows": 10000,
+      "ts_min": 1599098100,
+      "ts_max": 1602099000
+    },
+    {
+      "file": "part-00082.parquet",
+      "rows": 10000,
+      "ts_min": 1602099300,
+      "ts_max": 1605106200
+    },
+    {
+      "file": "part-00083.parquet",
+      "rows": 10000,
+      "ts_min": 1605106500,
+      "ts_max": 1608108000
+    },
+    {
+      "file": "part-00084.parquet",
+      "rows": 10000,
+      "ts_min": 1608108300,
+      "ts_max": 1611111900
+    },
+    {
+      "file": "part-00085.parquet",
+      "rows": 10000,
+      "ts_min": 1611112200,
+      "ts_max": 1614184800
+    },
+    {
+      "file": "part-00086.parquet",
+      "rows": 10000,
+      "ts_min": 1614185100,
+      "ts_max": 1617185100
+    },
+    {
+      "file": "part-00087.parquet",
+      "rows": 10000,
+      "ts_min": 1617185400,
+      "ts_max": 1620186000
+    },
+    {
+      "file": "part-00088.parquet",
+      "rows": 10000,
+      "ts_min": 1620186300,
+      "ts_max": 1623187200
+    },
+    {
+      "file": "part-00089.parquet",
+      "rows": 10000,
+      "ts_min": 1623187500,
+      "ts_max": 1626189000
+    },
+    {
+      "file": "part-00090.parquet",
+      "rows": 10000,
+      "ts_min": 1626189300,
+      "ts_max": 1629192900
+    },
+    {
+      "file": "part-00091.parquet",
+      "rows": 10000,
+      "ts_min": 1629193200,
+      "ts_max": 1632196800
+    },
+    {
+      "file": "part-00092.parquet",
+      "rows": 10000,
+      "ts_min": 1632197100,
+      "ts_max": 1635210300
+    },
+    {
+      "file": "part-00093.parquet",
+      "rows": 10000,
+      "ts_min": 1635210600,
+      "ts_max": 1638256200
+    },
+    {
+      "file": "part-00094.parquet",
+      "rows": 10000,
+      "ts_min": 1638256500,
+      "ts_max": 1643934600
+    },
+    {
+      "file": "part-00095.parquet",
+      "rows": 10000,
+      "ts_min": 1643934900,
+      "ts_max": 1646975400
+    },
+    {
+      "file": "part-00096.parquet",
+      "rows": 10000,
+      "ts_min": 1646975700,
+      "ts_max": 1649990400
+    },
+    {
+      "file": "part-00097.parquet",
+      "rows": 10000,
+      "ts_min": 1649990700,
+      "ts_max": 1652990400
+    },
+    {
+      "file": "part-00098.parquet",
+      "rows": 10000,
+      "ts_min": 1652990700,
+      "ts_max": 1655990400
+    },
+    {
+      "file": "part-00099.parquet",
+      "rows": 10000,
+      "ts_min": 1655990700,
+      "ts_max": 1658991900
+    },
+    {
+      "file": "part-00100.parquet",
+      "rows": 10000,
+      "ts_min": 1658992200,
+      "ts_max": 1661992200
+    },
+    {
+      "file": "part-00101.parquet",
+      "rows": 10000,
+      "ts_min": 1661992500,
+      "ts_max": 1664992500
+    },
+    {
+      "file": "part-00102.parquet",
+      "rows": 10000,
+      "ts_min": 1664992800,
+      "ts_max": 1673262900
+    },
+    {
+      "file": "part-00103.parquet",
+      "rows": 10000,
+      "ts_min": 1673263200,
+      "ts_max": 1676262900
+    },
+    {
+      "file": "part-00104.parquet",
+      "rows": 10000,
+      "ts_min": 1676263200,
+      "ts_max": 1679268000
+    },
+    {
+      "file": "part-00105.parquet",
+      "rows": 10000,
+      "ts_min": 1679268300,
+      "ts_max": 1682270100
+    },
+    {
+      "file": "part-00106.parquet",
+      "rows": 10000,
+      "ts_min": 1682270400,
+      "ts_max": 1685270400
+    },
+    {
+      "file": "part-00107.parquet",
+      "rows": 10000,
+      "ts_min": 1685270700,
+      "ts_max": 1688313300
+    },
+    {
+      "file": "part-00108.parquet",
+      "rows": 10000,
+      "ts_min": 1688313600,
+      "ts_max": 1691313900
+    },
+    {
+      "file": "part-00109.parquet",
+      "rows": 10000,
+      "ts_min": 1691314200,
+      "ts_max": 1694313900
+    },
+    {
+      "file": "part-00110.parquet",
+      "rows": 10000,
+      "ts_min": 1694314200,
+      "ts_max": 1697461200
+    },
+    {
+      "file": "part-00111.parquet",
+      "rows": 10000,
+      "ts_min": 1697461500,
+      "ts_max": 1700466600
+    },
+    {
+      "file": "part-00112.parquet",
+      "rows": 10000,
+      "ts_min": 1700466900,
+      "ts_max": 1703507400
+    },
+    {
+      "file": "part-00113.parquet",
+      "rows": 10000,
+      "ts_min": 1703507700,
+      "ts_max": 1706510100
+    },
+    {
+      "file": "part-00114.parquet",
+      "rows": 10000,
+      "ts_min": 1706510400,
+      "ts_max": 1709510400
+    },
+    {
+      "file": "part-00115.parquet",
+      "rows": 10000,
+      "ts_min": 1709510700,
+      "ts_max": 1713029700
+    },
+    {
+      "file": "part-00116.parquet",
+      "rows": 10000,
+      "ts_min": 1713030000,
+      "ts_max": 1716031500
+    },
+    {
+      "file": "part-00117.parquet",
+      "rows": 10000,
+      "ts_min": 1716031800,
+      "ts_max": 1719032100
+    },
+    {
+      "file": "part-00118.parquet",
+      "rows": 10000,
+      "ts_min": 1719032400,
+      "ts_max": 1722032400
+    },
+    {
+      "file": "part-00119.parquet",
+      "rows": 10000,
+      "ts_min": 1722032700,
+      "ts_max": 1725039300
+    },
+    {
+      "file": "part-00120.parquet",
+      "rows": 10000,
+      "ts_min": 1725039600,
+      "ts_max": 1728040800
+    },
+    {
+      "file": "part-00121.parquet",
+      "rows": 10000,
+      "ts_min": 1728041100,
+      "ts_max": 1731041100
+    },
+    {
+      "file": "part-00122.parquet",
+      "rows": 10000,
+      "ts_min": 1731041400,
+      "ts_max": 1734042000
+    },
+    {
+      "file": "part-00123.parquet",
+      "rows": 10000,
+      "ts_min": 1734042300,
+      "ts_max": 1737042300
+    },
+    {
+      "file": "part-00124.parquet",
+      "rows": 10000,
+      "ts_min": 1737042600,
+      "ts_max": 1740197100
+    },
+    {
+      "file": "part-00125.parquet",
+      "rows": 10000,
+      "ts_min": 1740197400,
+      "ts_max": 1743863400
+    },
+    {
+      "file": "part-00126.parquet",
+      "rows": 10000,
+      "ts_min": 1743863700,
+      "ts_max": 1747227000
+    },
+    {
+      "file": "part-00127.parquet",
+      "rows": 10000,
+      "ts_min": 1747227300,
+      "ts_max": 1750227300
+    },
+    {
+      "file": "part-00128.parquet",
+      "rows": 10000,
+      "ts_min": 1750227600,
+      "ts_max": 1753227300
+    },
+    {
+      "file": "part-00129.parquet",
+      "rows": 10000,
+      "ts_min": 1753227600,
+      "ts_max": 1756291500
+    },
+    {
+      "file": "part-00130.parquet",
+      "rows": 10000,
+      "ts_min": 1756291800,
+      "ts_max": 1759374900
+    },
+    {
+      "file": "part-00131.parquet",
+      "rows": 10000,
+      "ts_min": 1759375200,
+      "ts_max": 1762375200
+    },
+    {
+      "file": "part-00132.parquet",
+      "rows": 10000,
+      "ts_min": 1762375500,
+      "ts_max": 1765376100
+    },
+    {
+      "file": "part-00133.parquet",
+      "rows": 10000,
+      "ts_min": 1765376400,
+      "ts_max": 1768376100
+    },
+    {
+      "file": "part-00134.parquet",
+      "rows": 10000,
+      "ts_min": 1768376400,
+      "ts_max": 1771565100
+    },
+    {
+      "file": "part-00135.parquet",
+      "rows": 10000,
+      "ts_min": 1771565400,
+      "ts_max": 1774565100
+    },
+    {
+      "file": "part-00136.parquet",
+      "rows": 10000,
+      "ts_min": 1774565400,
+      "ts_max": 1777565700
+    },
+    {
+      "file": "part-00137.parquet",
+      "rows": 10000,
+      "ts_min": 1777566000,
+      "ts_max": 1780612500
+    },
+    {
+      "file": "part-00138.parquet",
+      "rows": 10000,
+      "ts_min": 1780612800,
+      "ts_max": 1783636200
+    },
+    {
+      "file": "part-00139.parquet",
+      "rows": 10000,
+      "ts_min": 1783636500,
+      "ts_max": 1786637700
+    },
+    {
+      "file": "part-00140.parquet",
+      "rows": 10000,
+      "ts_min": 1786638000,
+      "ts_max": 1789637700
+    },
+    {
+      "file": "part-00141.parquet",
+      "rows": 4000,
+      "ts_min": 1789638000,
+      "ts_max": 1790941200
+    }
+  ]
+}

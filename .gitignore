@@ -1,7 +1,8 @@
-# ข้อมูลที่สแคปได้ / ฐานข้อมูล / ไฟล์ export (~GB) - ไม่ขึ้น git
-data/*
-!data/.gitkeep
-# Airflow logs
+# ฐานข้อมูล SQLite (~1.5 GB) เกินขีดจำกัด GitHub (100 MB/ไฟล์) - สร้างใหม่ได้จากโค้ด
+data/warehouse/
+# โฟลเดอร์ชั่วคราวระหว่าง export
+data/**/.*.tmp/
+# Airflow logs (ลบอัตโนมัติหลัง 7 วัน)
 logs/*
 !logs/.gitkeep
 # รหัสผ่าน / ค่าตั้งเฉพาะเครื่อง (ใช้ .env.example เป็นต้นแบบ)

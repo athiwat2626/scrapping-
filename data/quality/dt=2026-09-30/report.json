@@ -1,0 +1,109 @@
+{
+  "report_day": "2026-09-30",
+  "generated_at": "2026-10-01 01:27:33",
+  "overall": "WARN",
+  "checks": [
+    {
+      "check": "realtime_last_success_hours",
+      "status": "OK",
+      "value": 0.17,
+      "detail": "realtime สำเร็จล่าสุด 2026-10-01 01:16:02"
+    },
+    {
+      "check": "newest_event_age_hours",
+      "status": "OK",
+      "value": 0.27,
+      "detail": "เหตุการณ์ กทม. ล่าสุดสร้างเมื่อ 2026-10-01 01:10:06"
+    },
+    {
+      "check": "field_null_pct",
+      "status": "OK",
+      "value": {
+        "title": 0.0,
+        "latitude": 0.0,
+        "longitude": 0.0,
+        "start_time": 0.0,
+        "stop_time": 0.0,
+        "severity": 0.0,
+        "event_type": 0.0,
+        "event_type_unknown": 4.15
+      },
+      "detail": "% ค่าว่างต่อฟิลด์ (ทั้งหมด)"
+    },
+    {
+      "check": "non_bangkok_rows",
+      "status": "OK",
+      "value": 0,
+      "detail": "ต้องเป็น 0 - warehouse เก็บเฉพาะ กทม."
+    },
+    {
+      "check": "bangkok_by_text_only",
+      "status": "OK",
+      "value": 0,
+      "detail": "ไม่มีพิกัด ตัดสินว่าเป็น กทม. จากข้อความ - ควรสุ่มตรวจ"
+    },
+    {
+      "check": "stop_before_start",
+      "status": "WARN",
+      "value": 1,
+      "detail": ""
+    },
+    {
+      "check": "possible_duplicate_reports",
+      "status": "WARN",
+      "value": 513,
+      "detail": "title+เวลา+พิกัด ซ้ำกันแต่ eid ต่างกัน"
+    },
+    {
+      "check": "days_without_incidents",
+      "status": "OK",
+      "value": 0,
+      "detail": "ช่วง 2025-02-28..2026-09-30, ดู missing_days.csv"
+    },
+    {
+      "check": "days_abnormally_low",
+      "status": "OK",
+      "value": 0,
+      "detail": "< 30% ของ median (80/วัน)"
+    },
+    {
+      "check": "traffic_index_coverage_pct",
+      "status": "OK",
+      "value": 97.6,
+      "detail": "2026-09-30: ขาด 1 ช่วง"
+    },
+    {
+      "check": "missing_eids_pending",
+      "status": "OK",
+      "value": 228,
+      "detail": "{\"not_available\": 311, \"pending\": 228, \"recovered\": 20}"
+    },
+    {
+      "check": "failed_runs_24h",
+      "status": "OK",
+      "value": 0,
+      "detail": ""
+    }
+  ],
+  "missing_days": [],
+  "low_days": [],
+  "daily_counts_last_14": {
+    "2026-09-17": 73,
+    "2026-09-18": 81,
+    "2026-09-19": 88,
+    "2026-09-20": 56,
+    "2026-09-21": 62,
+    "2026-09-22": 76,
+    "2026-09-23": 81,
+    "2026-09-24": 104,
+    "2026-09-25": 270,
+    "2026-09-26": 659,
+    "2026-09-27": 980,
+    "2026-09-28": 590,
+    "2026-09-29": 302,
+    "2026-09-30": 210
+  },
+  "traffic_index_missing_slots": [
+    "16:00"
+  ]
+}

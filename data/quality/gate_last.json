@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-10-02 18:56:31",
+  "passed": true,
+  "checks": [
+    {
+      "check": "G1_schema",
+      "status": "PASS",
+      "value": [],
+      "detail": "คอลัมน์ที่ต้องมีครบ"
+    },
+    {
+      "check": "G2_has_rows",
+      "status": "PASS",
+      "value": 484801,
+      "detail": ""
+    },
+    {
+      "check": "G3_non_bangkok_rows",
+      "status": "PASS",
+      "value": 0,
+      "detail": ""
+    },
+    {
+      "check": "G4_required_not_null",
+      "status": "PASS",
+      "value": 0,
+      "detail": "eid/title/start_time ต้องไม่ว่าง"
+    },
+    {
+      "check": "G5_no_coords_pct",
+      "status": "PASS",
+      "value": 0.0,
+      "detail": "<= 5.0%"
+    },
+    {
+      "check": "G6_quarantine_pct",
+      "status": "PASS",
+      "value": 0.0,
+      "detail": "8 แถว, <= 5.0%"
+    },
+    {
+      "check": "G7_no_big_drop",
+      "status": "PASS",
+      "value": {
+        "now": 484801,
+        "prev": 484801
+      },
+      "detail": "ต้อง >= 95% ของชุดก่อน (กันข้อมูลหายแล้วเผลอปล่อย)"
+    },
+    {
+      "check": "G9_non_traffic_rows",
+      "status": "PASS",
+      "value": 0,
+      "detail": "ต้องเป็น 0 - เก็บเฉพาะที่เกี่ยวกับจราจร"
+    },
+    {
+      "check": "G8_clean_backlog",
+      "status": "PASS",
+      "value": 0,
+      "detail": "bronze ที่ยังไม่ clean"
+    }
+  ]
+}
