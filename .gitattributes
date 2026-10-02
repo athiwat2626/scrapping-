@@ -1,0 +1,4 @@
+# โค้ดที่รันใน container (Linux) ต้องเป็น LF เสมอ
+* text=auto eol=lf
+*.ps1 text eol=crlf
+*.geojson -diff

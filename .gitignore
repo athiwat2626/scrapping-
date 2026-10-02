@@ -1,0 +1,11 @@
+# ข้อมูลที่สแคปได้ / ฐานข้อมูล / ไฟล์ export (~GB) - ไม่ขึ้น git
+data/*
+!data/.gitkeep
+# Airflow logs
+logs/*
+!logs/.gitkeep
+# รหัสผ่าน / ค่าตั้งเฉพาะเครื่อง (ใช้ .env.example เป็นต้นแบบ)
+.env
+# Python
+__pycache__/
+*.pyc
