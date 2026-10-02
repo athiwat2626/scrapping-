@@ -2,5 +2,5 @@
 * text=auto eol=lf
 *.ps1 text eol=crlf
 *.geojson -diff
-# ไฟล์ฐานข้อมูลที่บีบอัด/แบ่งส่วน ห้ามแปลงอะไรเด็ดขาด
-data/warehouse_snapshot/*.part-* binary
+data/warehouse/snapshots/*.db filter=lfs diff=lfs merge=lfs -text
+data/warehouse/*.db filter=lfs diff=lfs merge=lfs -text

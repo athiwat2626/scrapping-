@@ -1,5 +1,6 @@
-# ฐานข้อมูล SQLite (~1.5 GB) เกินขีดจำกัด GitHub (100 MB/ไฟล์) - สร้างใหม่ได้จากโค้ด
-data/warehouse/
+# ฐานข้อมูลเก็บผ่าน Git LFS (.gitattributes) - ไฟล์ชั่วคราวของ SQLite ไม่ต้องเก็บ
+data/warehouse/*.db-shm
+data/warehouse/*.db-wal
 # โฟลเดอร์ชั่วคราวระหว่าง export
 data/**/.*.tmp/
 # Airflow logs (ลบอัตโนมัติหลัง 7 วัน)
