@@ -1,11 +1,11 @@
 {
   "dataset": "travel_times",
-  "generated_at": "2026-10-02 18:50:23",
+  "generated_at": "2026-10-02 19:03:56",
   "rows_per_file": 10000,
-  "total_rows": 823,
-  "signature": "823|2026-10-02 18:50:02|10000",
+  "total_rows": 839,
+  "signature": "839|2026-10-02 19:00:02|10000",
   "validation": {
-    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate_passed_at": "2026-10-02 19:02:08",
     "gate": {
       "G1_schema": "PASS",
       "G2_has_rows": "PASS",
@@ -21,7 +21,7 @@
   "files": [
     {
       "file": "part-00000.parquet",
-      "rows": 823,
+      "rows": 839,
       "route_min": "ดอนเมือง -> หมอชิต",
       "route_max": "อนุสาวรีย์ชัยฯ -> สยาม"
     }

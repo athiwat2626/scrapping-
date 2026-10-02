@@ -1,11 +1,11 @@
 {
   "dataset": "accidents_bangkok",
-  "generated_at": "2026-10-02 18:50:07",
+  "generated_at": "2026-10-02 19:03:41",
   "rows_per_file": 10000,
-  "total_rows": 223713,
-  "signature": "223713|2026-10-02 18:45:32|10000",
+  "total_rows": 223715,
+  "signature": "223715|2026-10-02 19:00:38|10000",
   "validation": {
-    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate_passed_at": "2026-10-02 19:02:08",
     "gate": {
       "G1_schema": "PASS",
       "G2_has_rows": "PASS",
@@ -153,9 +153,9 @@
     },
     {
       "file": "part-00022.parquet",
-      "rows": 3713,
+      "rows": 3715,
       "eid_min": 955973,
-      "eid_max": 978722
+      "eid_max": 978727
     }
   ]
 }

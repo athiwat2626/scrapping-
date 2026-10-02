@@ -1,11 +1,11 @@
 {
   "dataset": "traffic_index",
-  "generated_at": "2026-10-02 18:50:22",
+  "generated_at": "2026-10-02 19:03:56",
   "rows_per_file": 10000,
-  "total_rows": 1414000,
-  "signature": "1414000|1790941200-4722018.0999999|10000",
+  "total_rows": 1414001,
+  "signature": "1414001|1790942100-4722024.9999999|10000",
   "validation": {
-    "gate_passed_at": "2026-10-02 18:48:06",
+    "gate_passed_at": "2026-10-02 19:02:08",
     "gate": {
       "G1_schema": "PASS",
       "G2_has_rows": "PASS",
@@ -867,9 +867,9 @@
     },
     {
       "file": "part-00141.parquet",
-      "rows": 4000,
+      "rows": 4001,
       "ts_min": 1789638000,
-      "ts_max": 1790941200
+      "ts_max": 1790942100
     }
   ]
 }

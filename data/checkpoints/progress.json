@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-02 18:45:36",
-  "eids_seen_all": 926494,
-  "incidents_bangkok": 486139,
-  "accidents_bangkok": 224453,
+  "generated_at": "2026-10-02 19:19:47",
+  "eids_seen_all": 926499,
+  "incidents_bangkok": 486141,
+  "accidents_bangkok": 224455,
   "start_time_range": [
     "2009-11-18 07:30:00",
     "2026-10-02 18:31:54"
   ],
   "eid_range": [
     3096,
-    978722
+    978727
   ],
   "by_type": {
-    "Accident": 218758,
+    "Accident": 218760,
     "Trafficjam": 170239,
     "Car Break Down": 52724,
     "Rain": 14875,
@@ -29,11 +29,11 @@
     "Fire": 173,
     "Complaint": 7
   },
-  "traffic_index_points": 212,
+  "traffic_index_points": 213,
   "layers": {
-    "bronze_raw": 486147,
+    "bronze_raw": 486149,
     "bronze_not_cleaned": 0,
-    "silver_clean": 486139,
+    "silver_clean": 486141,
     "silver_duplicates": 1338,
     "silver_flagged": 124,
     "quarantine": 8
@@ -43,19 +43,19 @@
     "pending": 1454,
     "recovered": 283
   },
-  "requests_total": 6045,
+  "requests_total": 6048,
   "runs_last_24h": {
     "backfill:success": 53,
-    "realtime:success": 96,
+    "realtime:success": 95,
     "recover:success": 1
   },
   "realtime_checkpoint": {
-    "last_success": "2026-10-02 18:45:34",
-    "pages_read": 2,
-    "items_last_run": 254,
-    "new_last_run": 1,
-    "source_total_pages": 93813,
-    "max_eid": 978722,
+    "last_success": "2026-10-02 19:00:39",
+    "pages_read": 3,
+    "items_last_run": 263,
+    "new_last_run": 2,
+    "source_total_pages": 93814,
+    "max_eid": 978727,
     "max_start_time": "2026-10-02 18:31:54"
   },
   "backfill_checkpoint": {

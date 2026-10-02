@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02 18:56:31",
+  "generated_at": "2026-10-02 19:18:19",
   "passed": true,
   "checks": [
     {
@@ -11,7 +11,7 @@
     {
       "check": "G2_has_rows",
       "status": "PASS",
-      "value": 484801,
+      "value": 484803,
       "detail": ""
     },
     {
@@ -42,8 +42,8 @@
       "check": "G7_no_big_drop",
       "status": "PASS",
       "value": {
-        "now": 484801,
-        "prev": 484801
+        "now": 484803,
+        "prev": 484803
       },
       "detail": "ต้อง >= 95% ของชุดก่อน (กันข้อมูลหายแล้วเผลอปล่อย)"
     },
